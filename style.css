@@ -78,33 +78,6 @@ body[theme="white"] {
   right: 3vw;
 }
 
-.loader-welcome{
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  /* opacity: 1; */
-}
-
-.loader-welcome img{
-  height: 10vw;
-}
-
-.loader-overlay{
-  position: fixed;
-  width: 100vw;
-  height: 100vh;
-  z-index: 99999999;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
 .bar {
   background-color: #000;
   height: 100vh;
@@ -149,7 +122,7 @@ body[theme="white"] {
 }
 
 
-.tesla-link {
+.shop-link {
   position: relative;
   overflow: hidden;
   display: inline-block;
@@ -163,7 +136,7 @@ body[theme="white"] {
   transition: transform 0.6s ease, -webkit-transform 0.6s ease;
 }
 
-.tesla-link:hover .inner-icon svg {
+.shop-link:hover .inner-icon svg {
   -webkit-transform: rotate(360deg);
       -ms-transform: rotate(360deg);
           transform: rotate(360deg);
@@ -488,7 +461,7 @@ body[theme="white"] {
   gap: 2.5rem;
 }
 
-.tesla-span {
+.shop-span {
   padding: 0.25rem 1rem;
   border-radius: 50px;
   background-color: rgb(212 212 216);
@@ -501,7 +474,7 @@ body[theme="white"] {
           align-items: center;
 }
 
-.get-tesla {
+.get-shop {
   font-size: 0.75rem;
   color: black;
 }
@@ -1248,39 +1221,7 @@ color: rgb(82 82 91);
   font-size: 1.8rem;
 }
 
-.charge-content{
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  padding: 5rem 0;
-  gap: 2rem;
-}
 
-.charge-content h1{
-  padding: 0;
-  width: 100%;
-  text-align: center;
-}
-
-.charge-info{
-  width: 75%;
-  padding: 0;
-}
-
-.charge-info h2 {
-  font-size: 1.4rem;
-  margin: 0.3rem 0;
-}
-
-.charge-media{
-  width: 75%;
-  height: 57%;
-}
-
-.page6-pin h1{
-  font-size: 6.3vw;
-}
 
 .foot-content{
   padding: 3rem 1rem 5rem 1rem ;
@@ -1350,45 +1291,6 @@ color: rgb(82 82 91);
   margin-top: 1rem;
 }
 
-.slide1-info button{
-  display: none;
-}
-
-.slide2-3 img{
-  height: 54%;
-}
-
-.slide2-3-info {
-  padding: 0rem 1rem;
-  height: 41%;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  gap: 1rem;
-}
-
-.slide2-3-info section:nth-child(1) {
-  height: 50%;
-  width: 100%;
-}
-
-.slide2-3-info section:nth-child(2) {
-  width: 100%;
-}
-
-.slide2-3-info section h1{
-  margin: 10px 0 15px 0;
-}
-
-
-.charge-media{
-  width: 90%;
-}
-
-.charge-info{
-  width: 90%;
-}
 
 .foot-content{
   padding: 2rem 1rem;
