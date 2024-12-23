@@ -242,6 +242,7 @@ body[theme="white"] {
 }
 
 .main-link {
+  
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -440,10 +441,11 @@ body[theme="white"] {
   display: -ms-flexbox;
   display: flex;
   gap: 5vw;
+  list-style: none;
 }
 
 #hide-hoja a {
-  font-weight: 500;
+  font-weight: 500; 
 }
 
 
