@@ -1,0 +1,214 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(228, 217, 195);
+}
+.cart-container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 12px 12px 2px 1px rgba(88, 40, 23, .2);
+    background: burlywood;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+.cart {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin: 20px 0;
+}
+
+.cart-item {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 10px;
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.cart-item img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.item-details h3 {
+    margin: 0;
+    font-size: 18px;
+    color: #333;
+}
+
+.item-details p {
+    margin: 5px 0;
+    color: #666;
+}
+
+.remove-btn, .increase-btn {
+    padding: 5px 10px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.remove-btn {
+    background-color: #ff4c4c;
+    display: inline-block;
+    outline: 0;
+    border: 0;
+    cursor: pointer;
+    color: #fff;
+    font-weight: 500;
+    border-radius: 4px;
+    font-size: 14px;
+    height: 30px;
+    padding: 0px 15px;
+    text-shadow: rgb(0 0 0 / 25%) 0px 3px 8px;
+    transition: all 0.5s ease 0s;
+    transition: transform ease 0.2s;
+}
+
+.remove-btn:hover {
+    background-color: #e63939;
+    box-shadow: rgb(230 57 57 / 50%) 0px 1px 40px;
+    transform: scale(1.07);
+}
+
+.increase-btn {
+    background-color: #4CAF50;
+    display: inline-block;
+    outline: 0;
+    border: 0;
+    cursor: pointer;
+    color: #fff;
+    font-weight: 500;
+    border-radius: 4px;
+    font-size: 14px;
+    height: 30px;
+    padding: 0px 15px;
+    text-shadow: rgb(0 0 0 / 25%) 0px 3px 8px;
+    transition: all 0.5s ease 0s;
+    transition: transform ease 0.2s;
+    
+}
+
+.increase-btn:hover {
+    box-shadow: rgb(74 207 80 / 50%) 0px 1px 40px;
+    transform: scale(1.02);
+}
+
+.cart-summary {
+    text-align: right;
+    margin-top: 20px;
+}
+
+.cart-summary h3 {
+    font-size: 22px;
+    color: #333;
+}
+
+.add-item {
+    margin-top: 20px;
+    padding: 15px;
+    background: #f4f4f4;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.add-item input {
+    padding: 5px;
+    margin-right: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.add-item button {
+    padding: 5px 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width:100px;
+    height:50px;
+    border-radius: 30px;
+    transition: transform 0.5s;
+}
+
+.add-item button:hover {
+    background-color: #45a049;
+    transform: scale(1.1);
+}
+.add-item {
+   background-color: #eee;
+}
+#new-item-name{
+    border-radius: 10px;
+    
+    box-shadow: inset #abacaf 0 0 0 2px;
+    border: 0;
+    background: rgba(0, 0, 0, 0);
+    appearance: none;
+    width: 30%;
+    position: relative;
+    border-radius: 3px;
+    padding: 9px 12px;
+    line-height: 1.4;
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    font-weight: 400;
+    height: 25px;
+    transition: all .2s ease;
+    
+    
+
+}
+#new-item-name:hover{
+        box-shadow: 0 0 0 0 #fff inset, #292929 0 0 0 2px;
+}
+#new-item-name:focus{
+    background: #fff;
+    outline: 0;
+    box-shadow: 0 0 0 0 #fff inset, #000 0 0 0 3px;
+}
+#new-item-price{
+    border-radius: 10px;
+    
+    box-shadow: inset #abacaf 0 0 0 2px;
+    border: 0;
+    background: rgba(0, 0, 0, 0);
+    appearance: none;
+    width: 30%;
+    position: relative;
+    border-radius: 3px;
+    padding: 9px 12px;
+    line-height: 1.4;
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    font-weight: 400;
+    height: 25px;
+    transition: all .2s ease;
+    
+    
+
+}
+#new-item-price:hover{
+        box-shadow: 0 0 0 0 #fff inset, #292929 0 0 0 2px;
+}
+#new-item-price:focus{
+    background: #fff;
+    outline: 0;
+    box-shadow: 0 0 0 0 #fff inset, #000 0 0 0 3px;
+}
